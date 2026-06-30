@@ -1,0 +1,197 @@
+[
+  {
+    "operation_id": 54530917280,
+    "operation_type": "OperationAgentDeliveredToCustomer",
+    "operation_date": "2026-06-23 00:00:00",
+    "operation_type_name": "Доставка покупателю",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 925,
+    "sale_commission": -111,
+    "amount": 814,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "RFBS",
+      "order_date": "2026-05-31 12:23:53",
+      "posting_number": "0201981697-0044-2",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [
+      {
+        "name": "Средство для бритья, пена, 50 мл",
+        "sku": 4384408241
+      }
+    ],
+    "services": []
+  },
+  {
+    "operation_id": 54531011553,
+    "operation_type": "OperationMarketplaceAgencyFeeAggregator3PLGlobal",
+    "operation_date": "2026-06-23 00:00:00",
+    "operation_type_name": "Агентское вознаграждение за заключение и сопровождение договора транспортно-экспедиционных услуг по организации международной перевозки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -18.5,
+    "type": "services",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-31 12:23:53",
+      "posting_number": "0201981697-0044-2",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54531011555,
+    "operation_type": "MarketplaceRedistributionOfDeliveryServicesOperation",
+    "operation_date": "2026-06-23 00:00:00",
+    "operation_type_name": "Перевыставление услуг доставки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -64.18,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-31 12:23:53",
+      "posting_number": "0201981697-0044-2",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54799131871,
+    "operation_type": "OperationAgentDeliveredToCustomer",
+    "operation_date": "2026-06-26 00:00:00",
+    "operation_type_name": "Доставка покупателю",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 940,
+    "sale_commission": -112.8,
+    "amount": 827.2,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "RFBS",
+      "order_date": "2026-05-22 16:43:43",
+      "posting_number": "0163494851-0055-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [
+      {
+        "name": "OZ-ESLT-12 В 180 Вт керамический PTC автомобильный вентилятор нагреватель воздуха постоянная температура нагревательный элемент",
+        "sku": 4283381310
+      }
+    ],
+    "services": []
+  },
+  {
+    "operation_id": 54799883622,
+    "operation_type": "OperationMarketplaceAgencyFeeAggregator3PLGlobal",
+    "operation_date": "2026-06-26 00:00:00",
+    "operation_type_name": "Агентское вознаграждение за заключение и сопровождение договора транспортно-экспедиционных услуг по организации международной перевозки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -18.8,
+    "type": "services",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-22 16:43:43",
+      "posting_number": "0163494851-0055-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54799883624,
+    "operation_type": "MarketplaceRedistributionOfDeliveryServicesOperation",
+    "operation_date": "2026-06-26 00:00:00",
+    "operation_type_name": "Перевыставление услуг доставки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -76.63,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-22 16:43:43",
+      "posting_number": "0163494851-0055-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54987498235,
+    "operation_type": "OperationAgentDeliveredToCustomer",
+    "operation_date": "2026-06-29 00:00:00",
+    "operation_type_name": "Доставка покупателю",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 928,
+    "sale_commission": -111.36,
+    "amount": 816.64,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "RFBS",
+      "order_date": "2026-06-10 13:53:31",
+      "posting_number": "47029711-0071-3",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [
+      {
+        "name": "Прецизионный металлический штриховой уровень-линейка 0.02мм (механический)",
+        "sku": 4325050995
+      }
+    ],
+    "services": []
+  },
+  {
+    "operation_id": 54988243389,
+    "operation_type": "OperationMarketplaceAgencyFeeAggregator3PLGlobal",
+    "operation_date": "2026-06-29 00:00:00",
+    "operation_type_name": "Агентское вознаграждение за заключение и сопровождение договора транспортно-экспедиционных услуг по организации международной перевозки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -18.56,
+    "type": "services",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-06-10 13:53:31",
+      "posting_number": "47029711-0071-3",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54988243391,
+    "operation_type": "MarketplaceRedistributionOfDeliveryServicesOperation",
+    "operation_date": "2026-06-29 00:00:00",
+    "operation_type_name": "Перевыставление услуг доставки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -58.1,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-06-10 13:53:31",
+      "posting_number": "47029711-0071-3",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  }
+]

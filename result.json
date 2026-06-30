@@ -1,0 +1,182 @@
+[
+  {
+    "operation_id": 54085160500,
+    "operation_type": "DefectFineCancellation",
+    "operation_date": "2026-06-18 00:00:00",
+    "operation_type_name": "Превышение индекса ошибок: отмена",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -95,
+    "type": "services",
+    "posting": {
+      "delivery_schema": "RFBS",
+      "order_date": "2026-06-02 13:15:25",
+      "posting_number": "0238230513-0001-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54155081310,
+    "operation_type": "OperationAgentDeliveredToCustomer",
+    "operation_date": "2026-06-18 00:00:00",
+    "operation_type_name": "Доставка покупателю",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 1456,
+    "sale_commission": -174.72,
+    "amount": 1281.28,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "RFBS",
+      "order_date": "2026-05-16 14:22:07",
+      "posting_number": "0125867127-0010-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [
+      {
+        "name": "Эксклюзивный адаптер GBT V2L для кемпинга, преобразующий розетку Schuko в источник питания 220 В на открытом воздухе",
+        "sku": 3794740022
+      }
+    ],
+    "services": []
+  },
+  {
+    "operation_id": 54163550237,
+    "operation_type": "OperationMarketplaceAgencyFeeAggregator3PLGlobal",
+    "operation_date": "2026-06-18 00:00:00",
+    "operation_type_name": "Агентское вознаграждение за заключение и сопровождение договора транспортно-экспедиционных услуг по организации международной перевозки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -29.12,
+    "type": "services",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-16 14:22:07",
+      "posting_number": "0125867127-0010-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54163550238,
+    "operation_type": "MarketplaceRedistributionOfDeliveryServicesOperation",
+    "operation_date": "2026-06-18 00:00:00",
+    "operation_type_name": "Перевыставление услуг доставки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -106.46,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-16 14:22:07",
+      "posting_number": "0125867127-0010-1",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54188617541,
+    "operation_type": "MarketplaceRedistributionOfAcquiringOperation",
+    "operation_date": "2026-06-19 00:00:00",
+    "operation_type_name": "Оплата эквайринга",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -8.85,
+    "type": "other",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-06-19 11:50:51",
+      "posting_number": "0183344853-0381",
+      "warehouse_id": 0
+    },
+    "items": [
+      {
+        "name": "Эксклюзивная коллекционная статуэтка аниме SuzumiyaHina высотой 25 см, представляющая прелестную девушку",
+        "sku": 4154829448
+      }
+    ],
+    "services": [
+      {
+        "name": "MarketplaceRedistributionOfAcquiringOperation",
+        "price": -8.85
+      }
+    ]
+  },
+  {
+    "operation_id": 54530917280,
+    "operation_type": "OperationAgentDeliveredToCustomer",
+    "operation_date": "2026-06-23 00:00:00",
+    "operation_type_name": "Доставка покупателю",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 925,
+    "sale_commission": -111,
+    "amount": 814,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "RFBS",
+      "order_date": "2026-05-31 12:23:53",
+      "posting_number": "0201981697-0044-2",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [
+      {
+        "name": "Средство для бритья, пена, 50 мл",
+        "sku": 4384408241
+      }
+    ],
+    "services": []
+  },
+  {
+    "operation_id": 54531011553,
+    "operation_type": "OperationMarketplaceAgencyFeeAggregator3PLGlobal",
+    "operation_date": "2026-06-23 00:00:00",
+    "operation_type_name": "Агентское вознаграждение за заключение и сопровождение договора транспортно-экспедиционных услуг по организации международной перевозки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -18.5,
+    "type": "services",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-31 12:23:53",
+      "posting_number": "0201981697-0044-2",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  },
+  {
+    "operation_id": 54531011555,
+    "operation_type": "MarketplaceRedistributionOfDeliveryServicesOperation",
+    "operation_date": "2026-06-23 00:00:00",
+    "operation_type_name": "Перевыставление услуг доставки",
+    "delivery_charge": 0,
+    "return_delivery_charge": 0,
+    "accruals_for_sale": 0,
+    "sale_commission": 0,
+    "amount": -64.18,
+    "type": "orders",
+    "posting": {
+      "delivery_schema": "",
+      "order_date": "2026-05-31 12:23:53",
+      "posting_number": "0201981697-0044-2",
+      "warehouse_id": 1020005005205910
+    },
+    "items": [],
+    "services": []
+  }
+]
