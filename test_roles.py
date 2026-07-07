@@ -6,44 +6,17 @@ Usage:
 """
 
 import json
-import os
-import sys
 
 import requests
+
+from config import load_credentials
 
 BASE_URL = "https://api-seller.ozon.ru"
 TIMEOUT = 15
 
 
-def load_credentials() -> tuple[str, str]:
-    """Read Client-Id and Api-Key from .env file."""
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    env_path = os.path.join(script_dir, ".env")
-
-    client_id = os.getenv("OZON_CLIENT_ID")
-    api_key = os.getenv("OZON_API_KEY")
-
-    if not client_id or not api_key:
-        if os.path.isfile(env_path):
-            with open(env_path) as f:
-                for line in f:
-                    line = line.strip()
-                    if line.startswith("#") or "=" not in line:
-                        continue
-                    k, v = line.split("=", 1)
-                    k, v = k.strip(), v.strip().strip('"').strip("'")
-                    if k == "OZON_CLIENT_ID" and not client_id:
-                        client_id = v
-                    elif k == "OZON_API_KEY" and not api_key:
-                        api_key = v
-
-    if not client_id or not api_key:
-        sys.exit("Missing credentials in .env file.")
-    return client_id, api_key
-
-
 def call_endpoint(client_id: str, api_key: str, path: str, body: dict | None = None) -> dict:
-    """POST to an Ozon API endpoint, return (status, body)."""
+    """POST to an Ozon API endpoint, return {status, body}."""
     url = f"{BASE_URL}{path}"
     headers = {
         "Client-Id": client_id,
@@ -53,7 +26,7 @@ def call_endpoint(client_id: str, api_key: str, path: str, body: dict | None = N
     resp = requests.post(url, headers=headers, json=body or {}, timeout=TIMEOUT)
     try:
         data = resp.json()
-    except Exception:
+    except (ValueError, requests.exceptions.JSONDecodeError):
         data = {"_raw": resp.text}
     return {"status": resp.status_code, "body": data}
 
